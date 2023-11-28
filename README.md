@@ -11,5 +11,5 @@ docker run --name sem-errors -v <location_to_root_folder>:/sem-errors -it sem-er
 ```
 - Once inside container and ready to test:
 ```
-./compile < <filename>.txt
+./compile < tests/<filename>.txt
 ```
